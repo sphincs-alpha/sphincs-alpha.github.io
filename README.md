@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+SPHINCS Alpha is an improvement on the NIST PQC Round 3 hash-based signature [SPHINCS+](https://sphincs.org/index.html). This is the official site for this construction, where we provide technical specifications, experimental results, and a prototype implementation.
 
-You can use the [editor on GitHub](https://github.com/sphincs-alpha/sphincs-alpha.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Publications
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+TO APPEAR
 
-### Markdown
+### Libraries
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+TO APPEAR
 
-```markdown
-Syntax highlighted code block
+### Talks
 
-# Header 1
-## Header 2
-### Header 3
+TO APPEAR
 
-- Bulleted
-- List
+### Team Members
 
-1. Numbered
-2. List
+TO APPEAR
 
-**Bold** and _Italic_ and `Code` text
+### Performance
 
-[Link](url) and ![Image](src)
-```
+We achieve up to 10% saving on signature size without sacrificing signing and verification time. We list the experimental results below.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Small version, with simple tweakable hash
 
-### Jekyll Themes
+| Parameter  | Keygen | Sign | Verify | Signature | pk | sk | 
+| --- |  --- | --- | --- | --- | --- | --- |
+|sha256-128s-simple   | 47681964|	457985448|	1202958|	6960|	32|	64|
+|sha256-192s-simple | 80291520|	722659932|	2049930|	14784|	48|	96|
+|sha256-256s-simple  | 60974802|	661839894|	3318174|	27104|	64|	128|
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sphincs-alpha/sphincs-alpha.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+Fast version, with simple tweakable hash
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Parameter  | Keygen | Sign | Verify | Signature | pk | sk | 
+| --- |  --- | --- | --- | --- | --- | --- |
+|sha256-128f-simple   | 1727604 |	21354462|	1709622|	17040|	32|	64|
+|sha256-192f-simple | 1364364 |	35095410|	2904768|	35640|	48|	96|
+|sha256-256f-simple  | 3760272 |	72368298|	3138498|	49696|	64|	128|
+
+### Funding Acknowledgments
+
+TO APPEAR
