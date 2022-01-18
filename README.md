@@ -25,7 +25,7 @@ We achieve up to 11% saving on signature size. We list below the experimental re
 - Fast version, with simple tweakable hash instantiated with SHA256, security level are 128, 196, and 256
 
 |  | 128bit| 192bit |  256bit| 
-|- |- | - | - | 
+|- |--: | --: | --: | 
 |  **KeyGen** | 1.7x10^6 | 1.4x10^6 | 3.8x10^6 |
 |  **KeyGen Ratio**  | -13.44%  | -50.72%  | -47.87% |
 |  **Sign** | 2.1x10^7  |   3.5x10^7 |  7.2x10^7 |
@@ -38,7 +38,7 @@ We achieve up to 11% saving on signature size. We list below the experimental re
 - Small version, with the same parameter settings
 
 |  | 128bit| 192bit |  256bit| 
-|- |- | - | - | 
+|- |--: | --: | --: | 
 |  **KeyGen** | 4.8x10^7 | 8.0x10^7 | 6.1x10^7 |
 |  **KeyGen Ratio**  | -23.41%  | -12.66%  | +0.31% |
 |  **Sign** | 4.6x10^8  |   7.2x10^8 |  6.6x10^8 |
