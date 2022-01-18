@@ -20,7 +20,7 @@ TO APPEAR
 
 ### Performance
 
-We achieve up to 11% saving on signature size without sacrificing signing and verification time. We list below the experimental results on a desktop computer. (Time is measured by CPU cycles, size is measured by bytes.)
+We achieve up to 11% saving on signature size. We list below the experimental results on a desktop computer. (Time is measured by CPU cycles, size is measured by bytes.)
 
 - Fast version, with simple tweakable hash instantiated with SHA256, security level are 128, 196, and 256
 
