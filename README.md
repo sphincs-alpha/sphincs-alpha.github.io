@@ -6,7 +6,7 @@ First, we provide an improved Winternitz one-time signature with an efficient si
 
 ### Publications
 
-An ePrint version is on the way.
+An ePrint version is avaliable [here](https://eprint.iacr.org/2022/059).
 
 ### Libraries
 
