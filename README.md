@@ -16,9 +16,7 @@ TO APPEAR
 
 ### Team Members
 
-- Kaiyi Zhang
-- Hongrui Cui
-- Yu Yu
+TO APPEAR
 
 ### Performance
 
