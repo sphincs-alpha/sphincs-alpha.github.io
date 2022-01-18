@@ -27,12 +27,12 @@ We achieve up to 11% saving on signature size. We list below the experimental re
 |  | 128bit| 192bit |  256bit| 
 |- |--: | --: | --: | 
 |  **KeyGen** | 1.7x10^6 | 1.4x10^6 | 3.8x10^6 |
-|  **KeyGen Ratio**  | -13.44%  | -50.72%  | -47.87% |
 |  **Sign** | 2.1x10^7  |   3.5x10^7 |  7.2x10^7 |
-|  **Sign Ratio** | -7.11% | -10.28% | -8.64% |
 |  **Verify** | 1.7x10^6 | 2.9x10^6 | 3.1x10^6  |
-|  **Verify Ratio** |  -9.99%  |   -1.52% |  +1.70% |
 |  **Size** | 17040  | 35640 |  49696 |
+|  **KeyGen Ratio**  | -13.44%  | -50.72%  | -47.87% |
+|  **Sign Ratio** | -7.11% | -10.28% | -8.64% |
+|  **Verify Ratio** |  -9.99%  |   -1.52% |  +1.70% |
 |  **Size Ratio**   | -0.28% | -0.07%  |  -0.32% |
 
 - Small version, with the same parameter settings
@@ -40,12 +40,12 @@ We achieve up to 11% saving on signature size. We list below the experimental re
 |  | 128bit| 192bit |  256bit| 
 |- |--: | --: | --: | 
 |  **KeyGen** | 4.8x10^7 | 8.0x10^7 | 6.1x10^7 |
-|  **KeyGen Ratio**  | -23.41%  | -12.66%  | +0.31% |
 |  **Sign** | 4.6x10^8  |   7.2x10^8 |  6.6x10^8 |
-|  **Sign Ratio** | -3.34% | -16.85% | -15.15% |
 |  **Verify** | 1.2x10^6 | 2.0x10^6 | 3.3x10^6  |
-|  **Verify Ratio** |  +58.48%  |  +65.25% |  +84.76% |
 |  **Size** | 6960  | 14784 |  27104 |
+|  **KeyGen Ratio**  | -23.41%  | -12.66%  | +0.31% |
+|  **Sign Ratio** | -3.34% | -16.85% | -15.15% |
+|  **Verify Ratio** |  +58.48%  |  +65.25% |  +84.76% |
 |  **Size Ratio**   | -11.41% | -8.88%  |  -9.02% |
 
 ### Funding Acknowledgments
