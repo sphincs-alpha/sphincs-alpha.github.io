@@ -4,4 +4,4 @@ title: SPHINCS Alpha
 show_downloads: false
 markdown: kramdown
 kramdown:
-    math_engine: katex
+    math_engine: mathjax
