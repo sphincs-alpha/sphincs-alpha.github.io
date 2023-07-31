@@ -20,6 +20,7 @@ Kaiyi Zhang
 
 ### Performance
 
+Performance of SPHINCS-α, with simple tweakable hash function instantiated with ``shake``. Key generation, signing, and verification time are in terms of CPU cycles; signature size is in bytes. Both public key and secret are short (128 bytes).
 
 | Para |   Keygen   |     Sign    |   Verify  | SigSize |
 |:-----|-----------:|------------:|----------:|--------:|
@@ -32,6 +33,7 @@ Kaiyi Zhang
 
 
 
+Our scheme offers an overall performance improvement for most parameter settings, in terms of signing time and signature size. On the downside, we experience an up to 253% increase in verification time. Nevertheless, we argue that for specific scenarios where verification time is critical, we can re-tune the parameters towards fast verification.
 
 | Para | KeygenRatio | SignRatio | VerifyRatio | SigSizeRatio |
 |:-----|------------:|----------:|------------:|-------------:|
