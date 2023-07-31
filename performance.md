@@ -1,3 +1,7 @@
+---
+layout: page
+title: "Performance"
+---
 
 Performance of SPHINCS-α, with simple tweakable hash function instantiated with ``shake``. Key generation, signing, and verification time are in terms of CPU cycles; signature size is in bytes. Both public and secret keys are short (128 bytes).
 
