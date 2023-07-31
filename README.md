@@ -1,12 +1,12 @@
-SPHINCS-<img src="https://render.githubusercontent.com/render/math?math=\alpha"> is a stateless hash-based signature scheme, improved from [SPHINCS+](https://sphincs.org/index.html).
+SPHINCS-<img src="https://render.githubusercontent.com/render/math?math=\alpha"> is a stateless hash-based signature scheme, a stateless hash-based signature scheme, which improves upon the state-of-the-art stateless hash-based signature scheme [SPHINCS+](https://sphincs.org/index.html), while preserving the core elements that made the original SPHINCS+ a standout project. 
 
-Hash-based signatures offer a conservative alternative to post-quantum signatures with arguably better-understood security than other post-quantum candidates. Nevertheless, a major drawback that makes it less favorable to deploy in practice is the (relatively) large size of the signatures, and long signing and verification time.
 
-First, we provide an improved Winternitz one-time signature with an efficient size-optimal encoding. Second, we give a variant of the few-time signature scheme, _FORC_, by applying the  Winternitz method. Plugging the two improved components into the framework of the state-of-the-art (stateless) hash-based [SPHINCS+](https://sphincs.org/index.html), with carefully chosen parameter choices, yields a certain degree of performance improvement. In particular, under the "small" series parameter set aiming for compact signatures, our scheme reduces signature size and signing time by 8-11% and 3-15% respectively, compared to [SPHINCS+](https://sphincs.org/index.html) at all security levels. For the "fast" series that prioritizes computation time, our scheme exhibits a better performance in general. E.g., when instantiating the simple tweakable hash function with SHA-256, our scheme reduces the signing and verification time by 7-10% and up to 10% respectively, while keeping roughly the same signature size. The security proofs/estimates follow the framework of [SPHINCS+](https://sphincs.org/index.html). To facilitate a fair comparison, we give the implementation of SPHINCS-<img src="https://render.githubusercontent.com/render/math?math=\alpha"> by adapting that of [SPHINCS+](https://sphincs.org/index.html), and we provide a theoretical estimate in the number of hash function calls. 
+Hash-based signature is one of the most promising candidates for (and perhaps the most conservative approach to) post-quantum digital signatures. An advantage of hash-based signatures is that its (classical as well as quantum) security strength is better understood (and easier to evaluate) than other candidates, by solely relying on the idealized hardness of the cryptographic hash functions.
+
 
 ### Publications
 
-An ePrint version is avaliable [here](https://eprint.iacr.org/2022/059).
+Our [paper](https://eprint.iacr.org/2023/850) is accepted by CRYPTO 2023.
 
 ### Libraries
 
@@ -18,7 +18,11 @@ TO APPEAR
 
 ### Team Members
 
-TO APPEAR
+Yu Yu
+
+Hongrui Cui
+
+Kaiyi Zhang
 
 ### Performance
 
