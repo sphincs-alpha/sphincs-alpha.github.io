@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: minima
 description: Improved stateless Hash-Based Signature
 title: SPHINCS-alpha
 show_downloads: false
