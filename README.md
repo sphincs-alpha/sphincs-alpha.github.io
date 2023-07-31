@@ -9,13 +9,6 @@ Our optimization mainly stems from the optimization of the one-time signature sc
 
 Our [paper](https://eprint.iacr.org/2023/850) is accepted by CRYPTO 2023.
 
-### Libraries
-
-TO APPEAR
-
-### Talks
-
-TO APPEAR
 
 ### Team Members
 
@@ -26,19 +19,6 @@ Hongrui Cui
 Kaiyi Zhang
 
 ### Performance
-
-We achieve up to 11% saving on signature size. We list below the experimental results on a desktop computer. (Time is measured by CPU cycles, size is measured by bytes.)
-
-- Fast version, with simple tweakable hash instantiated with SHA256, security level are 128, 196, and 256
-
-
-
-128f 1143558 26872236 2204802 17088 1036602 26635716 2028186 16720 −9.35% −0.88% −8.01% −2.15%
-192f 1662498 45405504 3003534 35664 2199276 45218790 1744038 34896 32.29% −0.41% −41.93% −2.15%
-256f 4327632 92059542 2967642 49856 4286574 91335474 3175290 49312 −0.95% −0.79% 7.00% −1.09%
-128s 72597852 551233638 846486 7856 51421086 537033762 2689650 6880 −29.17% −2.58% 217.74% −12.42%
-192s 105310692 1022229270 1201230 16224 78050718 988899534 3845970 14568 −25.89% −3.26% 220.17% −10.21%
-256s 69033492 918473904 1701324 29792 52048332 764352612 6005448 27232 −24.60% −16.78% 252.99% −8.59%
 
 
 | Para |   Keygen   |     Sign    |   Verify  | SigSize |
