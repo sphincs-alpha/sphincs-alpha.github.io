@@ -1,3 +1,8 @@
+---
+layout: home
+title: "SPHINCS-alpha"
+---
+
 SPHINCS-<img src="https://render.githubusercontent.com/render/math?math=\alpha"> is a stateless hash-based signature scheme, a stateless hash-based signature scheme, which improves upon the state-of-the-art stateless hash-based signature scheme [SPHINCS+](https://sphincs.org/index.html), while preserving the core elements that made the original SPHINCS+ a standout project. 
 
 
