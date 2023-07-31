@@ -39,6 +39,14 @@ Performance comparison between SPHINCS+ and SPHINCS-α. Our scheme offers an ove
 | 256s |  -24.60%    | -16.78%   | 252.99%     | -8.59%       |
 
 
+### Specification
+
+Specification [v1.0](https://1drv.ms/b/s!AjnXmKpKWPyRaso0CdQA-cB7vfg?e=mjWoyG)
+
+### Submission
+
+NIST Round 1 [submission](https://1drv.ms/u/s!AjnXmKpKWPyRa3p9Pb40o8iDXaA?e=fQzpE6). 
+
 ### Team Members
 
 Yu Yu (Shanghai Jiao Tong University)
