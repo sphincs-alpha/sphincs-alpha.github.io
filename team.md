@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Team"
+---
+
+
 Yu Yu (Shanghai Jiao Tong University)
 
 Hongrui Cui (Shanghai Jiao Tong University) 
