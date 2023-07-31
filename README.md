@@ -9,15 +9,6 @@ Our optimization mainly stems from the optimization of the one-time signature sc
 
 Our [paper](https://eprint.iacr.org/2023/850) is accepted by CRYPTO 2023.
 
-
-### Team Members
-
-Yu Yu
-
-Hongrui Cui
-
-Kaiyi Zhang
-
 ### Performance
 
 Performance of SPHINCS-α, with simple tweakable hash function instantiated with ``shake``. Key generation, signing, and verification time are in terms of CPU cycles; signature size is in bytes. Both public key and secret are short (128 bytes).
@@ -43,3 +34,12 @@ Performance comparison between SPHINCS+ and SPHINCS-α. Our scheme offers an ove
 | 128s |  -29.17%    | -2.58%    | 217.74%     | -12.42%      |
 | 192s |  -25.89%    | -3.26%    | 220.17%     | -10.21%      |
 | 256s |  -24.60%    | -16.78%   | 252.99%     | -8.59%       |
+
+
+### Team Members
+
+Yu Yu (Shanghai Jiao Tong University)
+
+Hongrui Cui (Shanghai Jiao Tong University) 
+
+Kaiyi Zhang (Shanghai Jiao Tong University)
