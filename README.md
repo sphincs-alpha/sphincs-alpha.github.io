@@ -15,7 +15,7 @@ Performance of SPHINCS-α, with simple tweakable hash function instantiated with
 
 
 | Para |  Keygen   |   Sign    |  Verify  | SigSize |
-|------|-----------|----------|----------|---------|
+|:------|-----------:|----------:|----------:|---------:|
 | 128f | 1.0x10^6 | 2.7x10^7 | 2.0x10^6| 16720  |
 | 192f | 2.2x10^6 | 4.5x10^7 | 1.7x10^6|  34896  |
 | 256f | 4.3x10^6 | 9.1x10^7 | 3.2x10^6| 49312  |
