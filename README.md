@@ -11,22 +11,25 @@ Our [paper](https://eprint.iacr.org/2023/850) is accepted by CRYPTO 2023.
 
 ### Performance
 
-Performance of SPHINCS-α, with simple tweakable hash function instantiated with ``shake``. Key generation, signing, and verification time are in terms of CPU cycles; signature size is in bytes. Both public key and secret are short (128 bytes).
+Performance of SPHINCS-α, with simple tweakable hash function instantiated with ``shake``. Key generation, signing, and verification time are in terms of CPU cycles; signature size is in bytes. Both public and secret keys are short (128 bytes).
 
-| Para |   Keygen   |     Sign    |   Verify  | SigSize |
-|:-----|-----------:|------------:|----------:|--------:|
-| 128f |  1036602   |  26635716   |  2028186  |  16720  |
-| 192f |  2199276   |  45218790   |  1744038  |  34896  |
-| 256f |  4286574   |  91335474   |  3175290  |  49312  |
-| 128s | 51421086   | 537033762   |  2689650  |   6880  |
-| 192s | 78050718   | 988899534   |  3845970  |  14568  |
-| 256s | 52048332   | 764352612   |  6005448  |  27232  |
+
+| Para |  Keygen   |   Sign    |  Verify  | SigSize |
+|------|-----------|----------|----------|---------|
+| 128f | 1.04x10^6 | 2.66x10^7 | 2.03x10^6| 16720  |
+| 192f | 2.20x10^6 | 4.52x10^7 | 1.74x10^6|  34896  |
+| 256f | 4.29x10^6 | 9.13x10^7 | 3.18x10^6| 49312  |
+| 128s | 5.14x10^7 | 5.37x10^8 | 2.69x10^6| 6880  |
+| 192s | 7.81x10^7 | 9.89x10^8 | 3.85x10^6|  14568  |
+| 256s | 5.20x10^7 | 7.64x10^8 | 6.01x10^6| 27232  |
+
+  
 
 
 
 Performance comparison between SPHINCS+ and SPHINCS-α. Our scheme offers an overall performance improvement for most parameter settings, in terms of signing time and signature size. On the downside, we experience an up to 253% increase in verification time. Nevertheless, we argue that for specific scenarios where verification time is critical, we can re-tune the parameters towards fast verification.
 
-| Para | KeygenRatio | SignRatio | VerifyRatio | SigSizeRatio |
+| Para | Keygen | Sign | Verify | SigSize |
 |:-----|------------:|----------:|------------:|-------------:|
 | 128f |  -9.35%     | -0.88%    | -8.01%      | -2.15%       |
 | 192f |   32.29%    |  -0.41%   | -41.93%     | -2.15%       |
