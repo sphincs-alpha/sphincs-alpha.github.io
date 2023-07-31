@@ -33,7 +33,7 @@ Performance of SPHINCS-α, with simple tweakable hash function instantiated with
 
 
 
-Our scheme offers an overall performance improvement for most parameter settings, in terms of signing time and signature size. On the downside, we experience an up to 253% increase in verification time. Nevertheless, we argue that for specific scenarios where verification time is critical, we can re-tune the parameters towards fast verification.
+Performance comparison between SPHINCS+ and SPHINCS-α. Our scheme offers an overall performance improvement for most parameter settings, in terms of signing time and signature size. On the downside, we experience an up to 253% increase in verification time. Nevertheless, we argue that for specific scenarios where verification time is critical, we can re-tune the parameters towards fast verification.
 
 | Para | KeygenRatio | SignRatio | VerifyRatio | SigSizeRatio |
 |:-----|------------:|----------:|------------:|-------------:|
