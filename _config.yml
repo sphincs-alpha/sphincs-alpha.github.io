@@ -7,3 +7,5 @@ kramdown:
     math_engine: mathjax
 header_pages:
   - specification.md
+  - performance.md
+  - team.md
