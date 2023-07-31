@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
-description: Yet another improvement on stateless Hash-Based Signature
-title: SPHINCS Alpha
+description: Improved stateless Hash-Based Signature
+title: SPHINCS-alpha
 show_downloads: false
 markdown: kramdown
 kramdown:
